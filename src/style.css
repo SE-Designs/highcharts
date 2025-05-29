@@ -1,0 +1,66 @@
+:root {
+  --primary-800: #4c9077;
+  --primary-700: #54a184;
+  --primary-500: #65c49d;
+
+  --neutral-black: #0a0a0b;
+  --neutral-white: #fcfefd;
+  --neutral-gray: #111112;
+  --neutral-950: #1c1c1d;
+  --neutral-900: #262627;
+  --neutral-850: #323233;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+
+  font-family: "AvertaStd-Regular", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#app {
+  overflow-x: hidden;
+
+  min-height: 100dvh;
+
+  color: var(--neutral-white);
+  background-color: var(--neutral-950);
+}
+
+section {
+  padding: 2rem;
+
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
